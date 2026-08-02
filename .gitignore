@@ -1,0 +1,20 @@
+# Dependencias y resultados generados
+node_modules/
+dist/
+
+# Credenciales y configuración local
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Archivos temporales de Codex y del sistema
+work/
+outputs/
+.DS_Store
+Thumbs.db
+
+# Registros y caché de herramientas
+*.log
+.vite/
+coverage/

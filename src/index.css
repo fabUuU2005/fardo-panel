@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #152033;
+  --color-brand: #f97352;
+  --color-paper: #f7f8fb;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; color: #152033; background: #f7f8fb; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+::selection { background: #fed7aa; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { scrollbar-width: none; }
