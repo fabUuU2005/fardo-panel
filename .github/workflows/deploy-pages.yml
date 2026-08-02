@@ -40,6 +40,8 @@ jobs:
 
       - name: Preparar GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Subir sitio compilado
         uses: actions/upload-pages-artifact@v3
