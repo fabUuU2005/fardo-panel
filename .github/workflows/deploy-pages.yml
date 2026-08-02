@@ -40,6 +40,9 @@ jobs:
 
       - name: Compilar aplicación
         run: pnpm build
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.VITE_SUPABASE_PUBLISHABLE_KEY }}
 
       - name: Subir sitio compilado
         uses: actions/upload-pages-artifact@v4
