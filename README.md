@@ -59,6 +59,12 @@ Para desplegar en Vercel, Netlify o Cloudflare Pages usa estos valores:
 
 Añade esas variables desde el panel del proveedor de hosting; no subas `.env.local`.
 
+### GitHub Pages
+
+El flujo `.github/workflows/deploy-pages.yml` compila y publica automáticamente la aplicación al hacer `push` a `main`. La URL pública será:
+
+`https://fabUuU2005.github.io/fardo-panel/`
+
 ## Verificación
 
 ```powershell
